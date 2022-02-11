@@ -12,7 +12,7 @@ body {
 }
 
 #container {
-	background: #ede9cc;
+	background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
 	min-width: 740px;
 	max-width: 1180px;
@@ -20,7 +20,7 @@ body {
 
 #topo {
 	position: relative;
-	background: #bdcd87;
+	background: #dbcd87;
 	height: 15.4em;
 	min-height: 250px;
 }
@@ -38,7 +38,7 @@ body {
 .logo a {
 	position: absolute;
 	top: 15px;
-	left: 15px
+	left: 15px;
 	z-index: 3;
 	background: url(../imagens/logo.png) no-repeat;
 	width: 151px;
@@ -76,7 +76,7 @@ body {
 	line-height: 2.1em;
 }
 
-a. {
+a {
 	text-decoration: none;
 }
 
@@ -86,4 +86,61 @@ a.reserva {
 	color: #fff5b0;
 	padding: 5px 10px;
 	float: right;
+}
+
+/*Barra de navegação*/
+
+#menu {
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+}
+
+ul#navegacao {
+	float: left;
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding: 5px;
+	color: #6e672c;
+	line-height: 30px;
+}
+
+ul#navegacao a:hover {
+	background: #fdf6be;
+}
+
+.depoimento {
+	width: 226px;
+	height: 164px;
+	float: right;
+}
+
+/*Area de conteúdos*/
+
+#area-principal {
+	float: left;
+	width: 50%;
+	background: url(../imagens/bg-area-principal.png) top left repeat-x;
+	padding: 15px 0px;
+}
+
+#area-lateral {
+	float: right;
+	width: 50%;
+	background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+	padding: 20px 0px;
+}
+
+.conteudo {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#rodape {
+	clear: both;
 }
